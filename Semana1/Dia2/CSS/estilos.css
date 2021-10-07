@@ -1,0 +1,86 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url("../img/pattern-background-desktop.svg") ;
+    background-size: cover;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  .contenedor{
+      background-color: white ; 
+      width: 450px ; 
+      height: 100% ;
+      border-radius: 8px;
+     }
+   
+    
+.contenedor-texto {
+    text-align: center;
+    padding: 30px ;
+}
+.imagen-fondo{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}  
+#boton-pagar {
+    color: white;
+    background-color: #382ae1;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: bolder;
+    cursor: pointer;
+    /*shadow*/
+    box-shadow: -4px 8px 32px -2px rgba(56, 42, 225, 0.41);
+    -webkit-box-shadow: -4px 8px 32px -2px rgba(56, 42, 225, 0.41);
+    -moz-box-shadow: -4px 8px 32px -2px rgba(56, 42, 225, 0.41);
+
+}
+.boton-cancelar{
+    /* margin: 4 atributos 
+    puede ser margin solo para todos los lados 
+    margin-top:arriba
+    margin-botton:abajo
+    margin-left:izquierda
+    margin-right:derecha */
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    /* El peso del texto va desde 100 a 900 */
+    width: 100%;
+    cursor: pointer;
+}
+.contenedor-detalle {
+    display: flex;
+    /* ordenar los elementos de manera vertical 
+    este puede recibir 3 tipos de alineación 
+    1) flex start
+    2) center
+    3) flex-end */
+    align-items: center;
+    /*Justify-content es la forma de alinear mis elemntos
+    de manera horizontal
+    1) flex-start
+    2) center
+    3) space-between
+    4)space around
+    5)space-evenly
+    6)flex-end*/
+    justify-content: space-between;
+    background-color: rgba(56, 42, 225, 0.41,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px ; 
+
+}
+/* Para acceder a un elemnto hijo pones su tipo de selector */
+.contenedor-detalle a {
+    text-decoration: none;
+    font-size: 12px;
+}
