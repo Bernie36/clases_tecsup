@@ -1,0 +1,38 @@
+git branch -a  -> 
+pull request  -> combinar ramas 
+git fetch --prume ->actualizar el repo remoto 
+
+git checkout -b feature/contacto  -> crear rama contacto
+git push origin feature/contacto -> subir el repo remoto
+
+
+push sube 
+pull baja los cambios
+----------------
+combinar codigo
+
+
+git checkout feature/contacto 
+
+checkout main
+
+git pull origin feature/contacto  
+
+
+git push origin main 
+
+----
+mandar invitacion 
+settings 
+manage access
+	--add people
+	--yabikusensei 
+--
+git branch -a ver ramas
+git branch -d feature/contacto -> eliminar local 
+git push origin --delete feature/contacto ->eliminar remoto 
+--descargar codigo de la rama principal 
+git pull origin main ->actualizan 
+--
+
+
