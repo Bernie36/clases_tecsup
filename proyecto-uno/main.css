@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+div {
+    margin-top: 20px;
+}
+img {
+    margin-right:15px;
+}
+/* PROPIEDADES DEL HEADER */
+header{
+    background-color: #00AF1C;
+    color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+header ul {
+    display: flex;
+    font-size: 18px;
+    
+}
+header li{
+    padding: 10px;
+}
+
+/* PROPIEDADES DEL MAIN  */
+main {
+    margin-left: 20px;
+}
+main ul {
+    margin-top: 40px;
+    margin-left: 20px;
+    list-style: inside;
+    list-style-position: outside
+}
+
+main h2 {
+    margin-top: 20px;
+    font-size: 24px ;
+    font-weight: bolder;
+}
+main p {
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 16px ;
+}
+
+.home h2{
+    color: #3B06D2;
+}
+/* servicios */
+.services h2{
+    color: #D206B2;
+}
+.services .one {
+    color: #FF0000;
+}
+.services .two {
+    color: #3B06D2;
+}
+.services .three {
+    color: #c2bf26;
+}
+.services .four {
+    color: #0795c0;
+}
+
+/* Portafolio */
+.portafolio h2{
+    color: #AAD206;
+}
+.portafolio .one {
+    color: #AE8800;
+}
+.portafolio .two {
+    color: #9e0b0b;
+}
+.portafolio .three {
+    color: #1f0469;
+}
+.portafolio .four {
+    color: #07c035;
+}
+
+.contact h2{
+    color: #06D2C6;
+}
+/* boton */
+button{
+color: #07c035;
+border-color: #07c035;
+padding: 15px;
+width: 195px;
+height: 73px;
+background-color: white;
+margin-bottom: 80px;
+}
+
+input{
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+
+/* PROPIEDADES DEL FOOTER */
+footer {
+    padding: 20px;
+    background-color: #00AF1C;
+    color: white;
+    size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
